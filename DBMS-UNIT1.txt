@@ -1,0 +1,286 @@
+
+
+There are different fields where a database management system is utilized. Following are a few applications which utilize the information base administration framework – 
+
+Railway Reservation System –
+In the rail route reservation framework, the information base is needed to store the record or information of ticket appointments, status about train’s appearance, and flight. Additionally, if trains get late, individuals become acquainted with it through the information base update.  
+ 
+Library Management System –
+There are lots of books in the library so; it is difficult to store the record of the relative multitude of books in a register or duplicate. Along these lines, the data set administration framework (DBMS) is utilized to keep up all the data identified with the name of the book, issue date, accessibility of the book, and its writer.  
+ 
+Banking –
+Database the executive’s framework is utilized to store the exchange data of the client in the information base.
+  
+Education Sector –
+Presently, assessments are led online by numerous schools and colleges. They deal with all assessment information through the data set administration framework (DBMS). In spite of that understudy’s enlistments subtleties, grades, courses, expense, participation, results, and so forth all the data is put away in the information base.  
+ 
+Credit card exchanges – 
+The database Management framework is utilized for buying on charge cards and age of month to month proclamations.  
+ 
+Social Media Sites –
+We all utilization of online media sites to associate with companions and to impart our perspectives to the world. Every day, many people group pursue these online media accounts like Pinterest, Facebook, Twitter, and Google in addition to. By the utilization of the data set administration framework, all the data of clients are put away in the information base and, we become ready to interface with others.  
+ 
+Broadcast communications – 
+Without DBMS any media transmission organization can’t think. The Database the executive’s framework is fundamental for these organizations to store the call subtleties and month to month postpaid bills in the information base.  
+ 
+Account –
+The information base administration framework is utilized for putting away data about deals, holding and acquisition of monetary instruments, for example, stocks and bonds in a data set. 
+ 
+Online Shopping – 
+These days, web-based shopping has become a major pattern. Nobody needs to visit the shop and burn through their time. Everybody needs to shop through web based shopping sites, (for example, Amazon, Flipkart, Snapdeal) from home. So all the items are sold and added uniquely with the assistance of the information base administration framework (DBMS). Receipt charges, installments, buy data these are finished with the assistance of DBMS.  
+ 
+Human Resource Management – 
+Big firms or organizations have numerous specialists or representatives working under them. They store data about worker’s compensation, assessment, and work with the assistance of an information base administration framework (DBMS).  
+ 
+Manufacturing – 
+Manufacturing organizations make various kinds of items and deal them consistently. To keep the data about their items like bills, acquisition of the item, amount, inventory network the executives, information base administration framework (DBMS) is utilized.  
+ 
+Airline Reservation System – 
+This framework is equivalent to the railroad reservation framework. This framework additionally utilizes an information base administration framework to store the records of flight takeoff, appearance, and defer status. 
+ Healthcare: DBMS is used in healthcare to manage patient data, medical records, and billing information.
+Data retrieval: DBMS provides a way to retrieve data quickly and easily using search queries.
+Data manipulation: DBMS provides tools to manipulate data, such as sorting, filtering, and aggregating data.
+Security: DBMS provides security features to ensure that only authorized users have access to the data.
+Data backup and recovery: DBMS provides tools to back up data and recover it in case of system failures or data loss.
+Multi-user access: DBMS allows multiple users to access and modify data simultaneously.
+Reporting and analysis: DBMS provides tools to generate reports and analyze data to gain insights and make informed decisions.
+ 
+
+
+
+
+
+
+
+
+
+DBMS
+
+Difference between File System and DBMS
+Basics
+
+File System
+
+DBMS
+
+Structure
+
+The file system is a way of arranging the files in a storage medium within a computer.
+
+DBMS is software for managing the database.
+
+Data Redundancy
+
+Redundant data can be present in a file system.
+
+In DBMS there is no redundant data.
+
+Backup and Recovery
+
+It doesn’t provide Inbuilt mechanism for backup and recovery of data if it is lost.
+
+It provides in house tools for backup and recovery of data even if it is lost.
+
+Query processing
+
+There is no efficient query processing in the file system.
+
+Efficient query processing is there in DBMS.
+
+Consistency
+
+There is less data consistency in the file system.
+
+There is more data consistency because of the process of normalization.
+
+Complexity
+
+It is less complex as compared to DBMS.
+
+It has more complexity in handling as compared to the file system.
+
+Security Constraints
+
+File systems provide less security in comparison to DBMS.
+
+DBMS has more security mechanisms as compared to file systems.
+
+Cost
+
+It is less expensive than DBMS.
+
+It has a comparatively higher cost than a file system.
+
+Data Independence
+
+There is no data independence.
+
+In DBMS data independence exists, mainly of two types:
+
+1) Logical Data Independence.
+
+2)Physical Data Independence.
+
+User Access
+
+Only one user can access data at a time.
+
+Multiple users can access data at a time.
+
+Meaning
+
+The users are not required to write procedures.
+
+The user has to write procedures for managing databases
+
+Sharing 
+
+Data is distributed in many files. So, it is not easy to share data.
+
+Due to centralized nature data sharing is easy
+
+Data Abstraction
+
+It give details of storage and representation of data
+
+It hides the internal details of Database
+
+Integrity Constraints
+
+Integrity Constraints are difficult to implement
+
+Integrity constraints are easy to implement
+
+Attributes	To access data in a file , user requires attributes such as file name, file location.	No such attributes are required.
+Example
+
+Cobol, C++
+
+Oracle, SQL Server
+
+
+
+
+
+
+
+A view in DBMS is a virtual table that is derived from one or more base tables or views. A view contains rows and columns, just like a real table, but does not store any data. Instead, a view is defined by a query that extracts or transforms data from the underlying tables or views
+1
+.
+
+
+
+
+
+
+
+A Data Model in Database Management System (DBMS)  is the concept of tools that are developed to summarize the description of the database. Data Models provide us with a transparent picture of data which helps us in creating an actual database. It shows us from the design of the data to its proper implementation of data.
+
+Types of Relational Models
+Conceptual Data Model
+Representational Data Model
+Physical Data Model
+
+
+
+
+
+
+
+DDL (Data Definition Language)
+DDL or Data Definition Language actually consists of the SQL commands that can be used to define the database schema. It simply deals with descriptions of the database schema and is used to create and modify the structure of database objects in the database. DDL is a set of SQL commands used to create, modify, and delete database structures but not data. These commands are normally not used by a general user, who should be accessing the database via an application.
+
+List of DDL commands: 
+
+CREATE: This command is used to create the database or its objects (like table, index, function, views, store procedure, and triggers).
+DROP: This command is used to delete objects from the database.
+ALTER: This is used to alter the structure of the database.
+TRUNCATE: This is used to remove all records from a table, including all spaces allocated for the records are removed.
+COMMENT: This is used to add comments to the data dictionary.
+RENAME: This is used to rename an object existing in the database.
+
+
+
+
+
+
+
+
+
+
+DML(Data Manipulation Language)
+The SQL commands that deal with the manipulation of data present in the database belong to DML or Data Manipulation Language and this includes most of the SQL statements. It is the component of the SQL statement that controls access to data and to the database. Basically, DCL statements are grouped with DML statements.
+
+List of DML commands: 
+
+INSERT: It is used to insert data into a table.
+UPDATE: It is used to update existing data within a table.
+DELETE: It is used to delete records from a database table.
+LOCK: Table control concurrency.
+CALL: Call a PL/SQL or JAVA subprogram.
+EXPLAIN PLAN: It describes the access path to data.
+
+
+
+
+
+
+
+
+
+
+Transactions are a set of operations used to perform a logical set of work. It is the bundle of all the instructions of a logical operation. A transaction usually means that the data in the database has changed. One of the major uses of DBMS is to protect the user’s data from system failures. It is done by ensuring that all the data is restored to a consistent state when the computer is restarted after a crash. The transaction is any one execution of the user program in a DBMS. One of the important properties of the transaction is that it contains a finite number of steps. Executing the same program multiple times will generate multiple transactions. 
+
+Example: Consider the following example of transaction operations to be performed to withdraw cash from an ATM vestibule.
+
+ Steps for ATM Transaction 
+ Transaction Start.
+ Insert your ATM card.
+ Select a language for your transaction.
+ Select the Savings Account option. 
+ Enter the amount you want to withdraw. 
+ Enter your secret pin.
+ Wait for some time for processing.
+ Collect your Cash.
+ Transaction Completed.
+A transaction can include the following basic database access operation.
+
+Read/Access data (R): Accessing the database item from disk (where the database stored data) to memory variable.
+Write/Change data (W): Write the data item from the memory variable to the disk.
+Commit: Commit is a transaction control language that is used to permanently save the changes done in a transaction
+
+
+
+
+
+
+
+
+
+
+
+
+Database users are categorized based up on their interaction with the database. These are seven types of database users in DBMS.
+
+Database Administrator (DBA) : Database Administrator (DBA) is a person/team who defines the schema and also controls the 3 levels of database. The DBA will then create a new account id and password for the user if he/she need to access the database. DBA is also responsible for providing security to the database and he allows only the authorized users to access/modify the data base. DBA is responsible for the problems such as security breaches and poor system response time.
+DBA also monitors the recovery and backup and provide technical support.
+The DBA has a DBA account in the DBMS which called a system or superuser account.
+DBA repairs damage caused due to hardware and/or software failures.
+DBA is the one having privileges to perform DCL (Data Control Language) operations such as GRANT and REVOKE, to allow/restrict a particular user from accessing the database.
+Naive / Parametric End Users : Parametric End Users are the unsophisticated who don’t have any DBMS knowledge but they frequently use the database applications in their daily life to get the desired results. For examples, Railway’s ticket booking users are naive users. Clerks in any bank is a naive user because they don’t have any DBMS knowledge but they still use the database and perform their given task.
+System Analyst :
+System Analyst is a user who analyzes the requirements of parametric end users. They check whether all the requirements of end users are satisfied.
+Sophisticated Users : Sophisticated users can be engineers, scientists, business analyst, who are familiar with the database. They can develop their own database applications according to their requirement. They don’t write the program code but they interact the database by writing SQL queries directly through the query processor.
+Database Designers : Data Base Designers are the users who design the structure of database which includes tables, indexes, views, triggers, stored procedures and constraints which are usually enforced before the database is created or populated with data. He/she controls what data must be stored and how the data items to be related. It is responsibility of Database Designers to understand the requirements of different user groups and then create a design which satisfies the need of all the user groups.
+Application Programmers : Application Programmers also referred as System Analysts or simply Software Engineers, are the back-end programmers who writes the code for the application programs. They are the computer professionals. These programs could be written in Programming languages such as Visual Basic, Developer, C, FORTRAN, COBOL etc. Application programmers design, debug, test, and maintain set of programs called “canned transactions” for the Naive (parametric) users in order to interact with database.
+Casual Users / Temporary Users : Casual Users are the users who occasionally use/access the database but each time when they access the database they require the new information, for example, Middle or higher level manager.
+Specialized users : Specialized users are sophisticated users who write 
+specialized database application that does not fit into the traditional data-
+processing framework. Among these applications are computer aided-design 
+systems, knowledge-base and expert systems etc.
+
+
+
+
+
+
